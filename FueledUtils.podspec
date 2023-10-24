@@ -2,15 +2,15 @@
 
 Pod::Spec.new do |s|
   s.name = 'FueledUtils'
-  s.version = '4.0.0'
-  s.summary = 'A collection of utilities used at Fueled'
-  s.description = 'This is a collection of classes, extensions, methods and functions used within Fueled projects that aims at decomplexifying tasks that should be easy.'
+  s.version = '4.0.0-so.1'
+  s.summary = 'A collection of utilities used at Fueld and silverorange'
+  s.description = 'This is a collection of classes, extensions, methods and functions used within Fueled/silverorange projects that aims at decomplexifying tasks that should be easy.'
   s.swift_version = '5'
 
-  s.homepage = 'https://github.com/Fueled/ios-utilities'
+  s.homepage = 'https://github.com/silverorange/ios-utilities'
   s.license = { type: 'Apache License, Version 2.0', file: 'LICENSE' }
-  s.author = { 'Vadim-Yelagin' => 'vadim.yelagin@gmail.com', 'stephanecopin' => 'stephane@fueled.com', 'leontiy' => 'leonty@fueled.com', 'bastienFalcou' => 'bastien@fueled.com', 'heymansmile' => 'ivan@fueled.com', 'thib4ult' => 'thibault@fueled.com', 'notbenoit' => 'benoit@fueled.com' }
-  s.source = { git: 'https://github.com/Fueled/ios-utilities.git', tag: s.version.to_s }
+  s.author = { 'Vadim-Yelagin' => 'vadim.yelagin@gmail.com', 'stephanecopin' => 'stephane@fueled.com', 'leontiy' => 'leonty@fueled.com', 'bastienFalcou' => 'bastien@fueled.com', 'heymansmile' => 'ivan@fueled.com', 'thib4ult' => 'thibault@fueled.com', 'notbenoit' => 'benoit@fueled.com', 'aminbagheri' => 'amin@silverorange.com' }
+  s.source = { git: 'https://github.com/silverorange/ios-utilities.git', tag: s.version.to_s }
   s.documentation_url = 'https://cdn.rawgit.com/Fueled/ios-utilities/master/docs/index.html'
 
   s.ios.deployment_target = '9.0'
